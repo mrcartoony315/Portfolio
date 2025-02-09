@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/index.css">
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <nav>
+                <div class="header">
+                    <h3 id="hd">My Portfolio</h3>
+                </div>
+                <div class="list">
+                    <ul class="anchor">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#qualify">Qualification</a></li>
+                        <li><a href="#skill">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+            </nav><hr>
+        </div> 
+        <div class="intro">
+            <div class="image"><img src="./assets/pic.JPG" alt="This is my Picture" width="400px"></div>
+            <div class="introduction" id="home">
+                <h1 id="name">Hello, I'm Mohd Sufyaanuddin Khan</h1>
+                <h3 id="sub">Computer Science Engineer</h3>
+                <h3 id="desg">Aspiring Full Stack Developer</h3>
+            </div>
+        </div><hr>
+        <div class="qualify">
+            <div class="heading" id="qualify">
+                <h2 id="sub2">Educational Qualifications</h2>
+                <p id="edu">
+                    <b>Bachelor of Technology (B.Tech) in Software Engineering</b> <br>
+                    Shadan College of Engineering and Technology <br>
+                    Currently Pursuing 3rd Year, with CGPA - 7.32 <br>
+                    <b>Intermediate Certificate in Mathematics-Physics-Chemistry (MPC)</b> <br>
+                    M S Junior College • 2020 - 2022 • Percentage: 73% <br>
+                    <b>High School Certificate (10th Grade)</b> <br>
+                    St Paul's High School • 2020 • Percentage: 98%
+                </p>
+            </div>
+        </div><hr>
+        <div class="tech">
+            <div id="skill">
+                <h2 id="sub3">Technical Skills</h2>
+                <p id="skills">
+                    <b>Programming Languages:</b><br> C++,Python, JavaScript <br>
+                    <b>Web Technologies:</b> <br>HTML, CSS, Bootstrap <br>
+                    <b>Database:</b> <br> MySQL <br>
+                    <b>Tools:</b> <br>Git, GitHub, VS Code <br>
+                    <b>Operating Systems:</b> <br> Windows <br>
+                    <b>Others:</b> <br> Data Structures, Algorithms, OOPs, DBMS, Networking
+                </p>
+            </div>
+        </div><hr>
+        <section id="projects" class="text-center">
+            <h2 class="text-black-400" id="sub3">My Projects</h2>
+            <div class="mt-10 flex flex-wrap justify-around gap-8" id="pj">
+                <!-- Project 1 -->
+                <div class="p-6 rounded-lg w-80 shadow-lg transform hover:scale-105 transition" id="p1">
+                    <h3 class="text-black-400" id="pjn">Project 1 - COVID-19 Awarness Website</h3>
+                    <p id="cv"><b>A web application I built during college which spreads Awarness on Corona Virus which was spread during the years 2019 to 2021.</b></p>
+                </div>
+                <!-- Project 2 -->
+                <div class="p-6 rounded-lg w-80 shadow-lg transform hover:scale-105 transition" id="p2">
+                    <h3 class="text-black-400" id="pjn">Project 2</h3>
+                    <p id="dummy">Another interesting project on automation.</p>
+                </div>
+                <!-- Project 3 -->
+                <div class="p-6 rounded-lg w-80 shadow-lg transform hover:scale-105 transition" id="p3">
+                    <h3 class="text-black-400" id="pjn">Project 3</h3>
+                    <p id="dummy">An AI-based system developed as a final-year project.</p>
+                </div>
+            </div>
+        </section><hr>  
+        <section id="contact" class="text-center">
+            <h2 class="text-black-400" id="cm">Contact Me</h2>
+            <p id="cm1">Feel free to reach out for any opportunities.</p>
+            <form class="mt-6 max-w-lg mx-auto">
+                <input type="text" placeholder="Your Name" class="w-full p-3 mb-4 rounded text-white">
+                <input type="email" placeholder="Your Email" class="w-full p-3 mb-4 rounded text-white">
+                <textarea placeholder="Your Message" class="w-full p-3 mb-4 rounded text-white"></textarea>
+                <button type="submit" class="bg-gray-400 text-gray-900 px-6 py-3 rounded-md font-semibold transition-all duration-300">
+                    Send Message
+                </button>
+            </form>
+        </section><hr>
+        <footer class="p-5 text-center">
+            <p>&copy; 2025 Computer Science Graduate. All Rights Reserved.</p>
+        </footer>    
+    </div>
+</body>
+</html>
