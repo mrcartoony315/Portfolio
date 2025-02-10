@@ -5,7 +5,12 @@ body{
     color:#323232 ;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-
+.nav{
+    position: sticky;
+    top: 0;
+    background-color: rgb(104, 97, 97);
+    color: #DDD0C8
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -18,7 +23,7 @@ nav{
     border-radius: 5px;
     padding: 10px;
     font-size: 3rem;
-    color: #323232;
+    color: #DDD0C8;
     font-weight: 100;
 }
 h1,h2{
